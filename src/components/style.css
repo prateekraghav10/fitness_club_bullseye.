@@ -1,0 +1,91 @@
+.main_div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../public/assests/images/bg.jpg");
+}
+
+.form {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox{
+    width: 90%;
+    outline: none;
+    border : none;
+    background-color: rgb(236, 236, 236);
+    padding : 10px;
+    margin: 10px;
+
+}
+.submitBtn{
+    width: 100%;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.lists{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 236, 236);    
+}
+.title {
+    background-color: salmon;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.itemin{
+    margin: 5px;
+
+}
+
+.heading {
+    text-align: center;
+    color: rgb(56, 56, 56);
+    /* text-transform: uppercase;
+    letter-spacing: 4px; */
+}
