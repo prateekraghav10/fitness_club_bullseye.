@@ -37,6 +37,10 @@
 }
 
 .lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     border-radius: 20px;
     margin-top: 20px;
@@ -88,4 +92,25 @@
     color: rgb(56, 56, 56);
     /* text-transform: uppercase;
     letter-spacing: 4px; */
+}
+
+.btn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.changeBtn {
+    background-color: wheat;
+    border: none;
+    padding: 12px;
+    width: 30%;
+    border-radius: 25px;
+    font-weight: 800;
+    color: rgb(61, 61, 61);
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
